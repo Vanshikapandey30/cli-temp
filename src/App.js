@@ -77,8 +77,15 @@ export default class App extends Component {
       <div className="container">
         Tracking Bitcoins
         <div className="chart">
-        <canvas id="myChart" responsive="true" width="50rem" height="50rem"></canvas>
+        <canvas id="myChart" responsive="true" ></canvas>
         </div>
+      </div>
+      <div className="foot">
+      <p>
+          made by --> Abhishek Kale <br/>
+          <a href="https://github.com/overrkill">github.com/overrkill</a>
+          
+        </p>
       </div>
     </div>
     )

@@ -4,11 +4,6 @@
   font-family: 'JetBrains Mono', monospace;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 
 
 .App-header {
@@ -25,11 +20,11 @@
 .container{
   display:flex;
   flex-direction: column;
-  height: 90vh;
+  height: 70vh;
   background-color: #282c34;
   padding: 2rem;
   color: #61dafb;
-  justify-content: center;
+
 }
 
 .App-link {
@@ -38,5 +33,15 @@
 
 .chart{
   width: 80%;
-  height: 80%;
+  height: 80%}
+.foot{
+  display: flex;
+  height: 8vh;
+  color: #61dafb;
+  justify-content: center;
+  align-items: center;
+}
+
+a{
+  color: #61dafb;
 }
